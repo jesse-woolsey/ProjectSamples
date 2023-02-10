@@ -98,10 +98,10 @@ IDEA: add telescope and space to the bottom, too
 }
 
 @keyframes orbit {
-    0%   {top: 75%; right: 20%; z-index: 0}
+    0%   {top: 75%; right: 10%; z-index: 0}
     50% {top: 75%; right: 80%; z-index: 0}
     51% {top: 75%; right: 80%; z-index: 1}
-    100% {top: 75%; right: 20%; z-index: 1}
+    100% {top: 75%; right: 10%; z-index: 1}
 }
 
 .spaceship {
@@ -111,14 +111,14 @@ IDEA: add telescope and space to the bottom, too
     left: 40%;
     height: 75px;
     width: 75px;
-    transform: rotate(305deg);
-    animation: spaceFlight 4s ease-in 1 forwards;
+    transform: rotate(330deg);
+    animation: spaceFlight 3s ease-in 1 forwards;
 
 }
 
 @keyframes spaceFlight  {
     from  {top: 80%; left: 40%;}
-    to {top: 10%; left: -10%; display: none}
+    to {top: -15%; left: -15%; display: none}
   }
 
 .earth {
@@ -191,7 +191,7 @@ IDEA: add telescope and space to the bottom, too
     margin: 0 auto;
     height: 80px;
     width: 80px;
-    animation: ufoOrbit 1s ease-in-out infinite alternate;
+    animation: ufoOrbit 1.5s ease-in-out infinite alternate;
 }
 
 
