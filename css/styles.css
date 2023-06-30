@@ -17,16 +17,23 @@ h2 {
     font-family: 'Press Start 2P', cursive;
     font-weight: normal;
     color: #93B7BE;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 h3 {
     font-family: 'Ubuntu Mono', cursive, bold;
+    font-size: 1.5rem;
     color: #456B73;
 }
 
 p {
-    line-height: 2;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #474747;
+    padding-bottom: 5px;
+    margin: auto;
 }
 
 
@@ -36,6 +43,7 @@ hr {
     width: 4%;
     margin: 100px auto;
 }
+
 
 a {
    color: #93B7BE;
@@ -51,6 +59,15 @@ a:hover {
 
 }
 
+.mirror {
+    display: inline-block; 
+    -webkit-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, 0, 0, 1, 0, 0);
+    -o-transform: matrix(-1, 0, 0, 1, 0, 0);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
+
+
 .top-container {
     background-color: #454545;
     position: relative;
@@ -58,6 +75,9 @@ a:hover {
     height: 500px;
     overflow: hidden;
 }
+
+
+
 
 /* 
 IDEA: add hover effects of stuff spinning, rotating, or transforming to explode
@@ -135,30 +155,29 @@ IDEA: add telescope and space to the bottom, too
 
 
 
+
 .profile-image {
     width: 10%;
     border-radius: 50%;
     margin: 50px 0 0 0;
 }
 
-.intro {
+.graytext {
     width: 50%;
-    margin: auto;
-
 }
-
-
 
 .skill-row {
     width: 75%;
-    margin: 50px auto; 
+    margin: auto; 
     text-align: left;
 }
 
-
+.subpoint {
+    margin: 10px 0 0 0;
+}
 
 .code-image {
-    width: 10%;
+    width: 5%;
     float: left;
     margin-right: 30px;
     border-radius: 25px;
@@ -166,22 +185,28 @@ IDEA: add telescope and space to the bottom, too
 }
 
 .edu-image {
-    width: 10%;
-    float: right;
-    margin-left: 30px;
+    width: 5%;
+    float: left;
+    margin-right: 30px;
     border-radius: 25px;
     border: 2px solid #456B73;
 }
 
 .module-image {
-    width: 100%;
+    width: 5%;
     border: 2px solid #456B73;
 }
 
+.sample-image {
+    width: 75%;
+    margin: 0 0 0 50px;
 
-.contact-message {
-    width: 40%;
-    margin: 40px auto 60px;
+}
+
+.contact-me {
+    width: 75%;
+    text-align: center;
+    margin: auto;
 }
 
 
@@ -238,6 +263,7 @@ IDEA: add telescope and space to the bottom, too
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    text-align: center;
     animation: ufoOrbit 1s ease-in-out infinite alternate;
   }
   
