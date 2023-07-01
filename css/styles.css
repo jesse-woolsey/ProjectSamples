@@ -197,11 +197,19 @@ IDEA: add telescope and space to the bottom, too
     border: 2px solid #456B73;
 }
 
-.sample-image {
-    width: 75%;
-    margin: 0 0 0 50px;
-
+.self-image {
+    display: block;
+    width: 50%;
+    margin: 15px auto 60px auto;
 }
+
+
+.sample-image {
+    display: block;
+    width: 75%;
+    margin: 15px auto 60px auto;
+}
+
 
 .contact-me {
     width: 75%;
@@ -231,6 +239,7 @@ IDEA: add telescope and space to the bottom, too
     padding: 50px 0 20px;
     margin: 100px 0 0 0;
 }
+
 
 
 .embed-ModuleContainer {
