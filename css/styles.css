@@ -1,9 +1,13 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Ubuntu Mono', monospace;
+    font-family: 'Montserrat', sans-serif;;
     color: #454545;
 }
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Press Start 2P', cursive; */
+
 
 h1 {
     margin: 50px auto;
@@ -12,23 +16,25 @@ h1 {
     color: #93B7BE;
 }
 
+
 h2 {
-    font-size: 1.4rem;
-    font-family: 'Press Start 2P', cursive;
+    font-size: 1.1em;
+    font-family: 'Press Start 2P';
     font-weight: normal;
     color: #93B7BE;
+    line-height: 1.1;
     padding-bottom: 15px;
     text-align: center;
 }
 
 h3 {
-    font-family: 'Ubuntu Mono', cursive, bold;
-    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif, cursive, bold;
+    font-size: 1.1rem;
     color: #456B73;
 }
 
 h4 {
-    font-family: 'Ubuntu Mono', cursive;
+    font-family: 'Montserrat', sans-serif, cursive;
     font-size: 1.5rem;
     color: #456B73;
 }
@@ -53,7 +59,7 @@ hr {
 
 a {
    color: #93B7BE;
-   font-family: 'Ubuntu Mono', monospace, bold;
+   font-family: 'Montserrat', sans-serif, monospace, bold;
    /* margin: 10px 20px; */
    text-decoration: none;
 }
@@ -81,6 +87,47 @@ a:hover {
     height: 500px;
     overflow: hidden;
 }
+
+.about-container {
+    text-align: center;
+    margin: 0 10% 0 10%;
+}
+
+.space-container {
+    text-align: left;
+    margin: 0 10% 0 10%;
+}
+
+.section-divider {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.breathwork-container {
+    text-align: left;
+    margin: 0 10% 0 10%;
+}
+
+.projects-container {
+    text-align: left;
+    margin: 0 10% 0 10%;
+}
+
+
+.contact-container {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.bottom-container {
+    background-color: #454545;
+    padding: 50px 0 20px;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
 
 
 /* 
@@ -154,21 +201,17 @@ IDEA: add telescope and space to the bottom, too
     font-size: 1.5rem;
     font-weight: normal;
     color: #93B7BE;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 
 
 
 
 .profile-image {
-    width: 10%;
-    border-radius: 50%;
+    width: 15%;
     margin: 50px 0 0 0;
 }
 
-.graytext {
-    width: 50%;
-}
 
 .skill-row {
     width: 75%;
@@ -213,13 +256,18 @@ IDEA: add telescope and space to the bottom, too
     display: block;
     width: 75%;
     margin: 15px auto 60px auto;
-}
+    }
 
-
-.contact-me {
-    width: 75%;
-    text-align: center;
-    margin: auto;
+@media (max-width: 600px) {
+    .sample-image {
+        width: 100%;
+    }
+    .self-image {
+        width: 100%;
+    }
+    .profile-image {
+        width: 40%;
+    }
 }
 
 
@@ -238,14 +286,6 @@ IDEA: add telescope and space to the bottom, too
     100% {right: -46px}
 }
 
-
-
-
-.bottom-container {
-    background-color: #454545;
-    padding: 50px 0 20px;
-    margin: 100px 0 0 0;
-}
 
 
 
@@ -297,7 +337,7 @@ IDEA: add telescope and space to the bottom, too
 
   .blinking-cursor {
     font-weight: 100;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #93B7BE;
     -webkit-animation: 1s blink step-end infinite;
     -moz-animation: 1s blink step-end infinite;
