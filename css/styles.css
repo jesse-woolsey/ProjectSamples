@@ -7,13 +7,13 @@ body {
 
 h1 {
     margin: 50px auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: 'Press Start 2P', cursive;
     color: #93B7BE;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Press Start 2P', cursive;
     font-weight: normal;
     color: #93B7BE;
@@ -23,13 +23,13 @@ h2 {
 
 h3 {
     font-family: 'Ubuntu Mono', cursive, bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #456B73;
 }
 
 p {
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: normal;
     color: #474747;
     padding-bottom: 5px;
@@ -75,8 +75,6 @@ a:hover {
     height: 500px;
     overflow: hidden;
 }
-
-
 
 
 /* 
@@ -172,6 +170,7 @@ IDEA: add telescope and space to the bottom, too
     text-align: left;
 }
 
+
 .subpoint {
     margin: 10px 0 0 0;
 }
@@ -232,6 +231,8 @@ IDEA: add telescope and space to the bottom, too
     0%   {right: 46px}
     100% {right: -46px}
 }
+
+
 
 
 .bottom-container {
