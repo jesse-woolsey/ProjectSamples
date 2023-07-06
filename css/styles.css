@@ -225,20 +225,13 @@ IDEA: add telescope and space to the bottom, too
 }
 
 .code-image {
-    width: 5%;
+    width: 40px;
     float: left;
     margin-right: 30px;
     border-radius: 25px;
     border: 2px solid #456B73;
 }
 
-.edu-image {
-    width: 5%;
-    float: left;
-    margin-right: 30px;
-    border-radius: 25px;
-    border: 2px solid #456B73;
-}
 
 .module-image {
     width: 5%;
@@ -254,7 +247,7 @@ IDEA: add telescope and space to the bottom, too
 
 .sample-image {
     display: block;
-    width: 75%;
+    width: 70%;
     margin: 15px auto 60px auto;
     }
 
