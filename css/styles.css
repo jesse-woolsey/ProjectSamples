@@ -27,6 +27,12 @@ h3 {
     color: #456B73;
 }
 
+h4 {
+    font-family: 'Ubuntu Mono', cursive;
+    font-size: 1.5rem;
+    color: #456B73;
+}
+
 p {
     line-height: 1.5;
     font-size: 1rem;
